@@ -1,0 +1,131 @@
+@font-face {
+	font-family: "Maplestory_Bold";
+	src: url("../font/Maplestory_Bold.ttf") format("truetype");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Maplestory_Light";
+	src: url("../font/Maplestory_Light.ttf") format("truetype");
+	font-weight: normal;
+}
+
+.allTextMaple{
+	font-family: 'Maplestory_Light', sans-serif;
+	
+}
+
+.title {
+	font-size:35px;
+	font-family: 'Maplestory_Bold', sans-serif;
+	text-align: center;
+	width: 100%;
+	margin-top: 35px;
+	padding-right: 24%;
+	padding-left: 24%;
+}
+
+.charName{
+	font-size:24px;
+	width :55%;
+	height: 45px;
+	border-top-left-radius: 10px; 
+	border-bottom-left-radius: 10px;
+	border: 1px solid #222222;
+	text-align: center;
+}
+
+.callBtn{
+	width:15%;
+	height: 45px;
+	border-top-right-radius: 10px; 
+	border-bottom-right-radius: 10px;
+	color: #ffffff;
+	background-color:#222222;
+	border: 1px solid #222222;
+	border-left: none;
+}
+
+.infoCon {
+	margin: 0 auto;
+	padding-right: 10%;
+	padding-left: 10%;
+	display: flex;
+}
+
+.inputCon{
+	height: 150px; 
+	width:100%; 
+	display:flex; 
+	justify-content:center;
+}
+
+.userInfoBox {
+	display: flex;
+	width: 50%;
+	padding: 30px;
+	box-sizing: border-box;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.charCon {
+	overflow:hidden;
+/* 	display: flex; */
+/* 	justify-content: center; */
+	text-align: center;
+	width: 100%;
+	margin : 0 auto; 
+	border:1px solid black;
+}
+
+.charNameCon{
+    display: flex;
+    width : 220px; 	
+    justify-content: center;
+    align-items : center;
+    border-radius: 15px;
+    padding: 4px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    background-color: #3CC2D8;
+    color: #ffffff;
+}
+.levelBox{
+	height: 30px;
+	display:flex;
+	width:100%;
+	justify-content: space-between;
+	align-items:flex-start;
+	margin-bottom : 5px; 
+}
+
+[class*="className"]{
+	width:150px;
+	height:30px;
+	font-size : 18px;
+	border-bottom-right-radius: 5px;
+	background-color: #9AA2AC;
+	color:#ffffff;
+}
+
+[class*="levelText"]{
+	width:150px;
+	height:30px;
+	font-size : 18px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #9AA2AC;
+	color:#ffffff;
+	/**transform: translateX(-50%);**/
+}
+
+[class*="userInfo"]{
+	width: 100%;
+	padding: 30px;
+	justify-content: center;
+}
+
+[img*="charImg"]{
+
+}
